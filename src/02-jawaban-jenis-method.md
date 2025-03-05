@@ -1,10 +1,12 @@
-# **Jenis Jenis Method**
+## **Jenis Jenis Method**
 
-## **1. Instance Method**
+### **1. Instance Method**
 Penjelasan:
 
 -> Instance method adalah method yang terikat pada objek dari suatu class.
+
 -> Untuk memanggil instance method, kita harus membuat objek dari class terlebih dahulu.
+
 -> Instance method bisa memiliki akses langsung ke atribut class yang tidak bersifat static.
 
 ```java
@@ -35,11 +37,13 @@ Instance method tidak menggunakan static karena bergantung pada objek.
 ---
 
 
-## **2. Static Method**
+### **2. Static Method**
 Penjelasan:
 
 -> Static method adalah method yang dapat dipanggil tanpa membuat objek terlebih dahulu.
+
 -> Static method ditandai dengan kata kunci static.
+
 -> Tidak bisa mengakses atribut instance secara langsung, kecuali jika menggunakan objek.
 
 ```java
@@ -64,11 +68,13 @@ Static method bisa langsung dipanggil dengan NamaClass.method().
 ---
 
 
-## **3. Setter and Getter Method**
+### **3. Setter and Getter Method**
 Penjelasan:
 
 -> Setter Method → digunakan untuk mengatur nilai atribut private dalam class.
+
 -> Getter Method → digunakan untuk mengambil nilai dari atribut private.
+
 -> Berguna dalam enkapsulasi, karena atribut dibuat private dan hanya bisa diakses melalui method.
 
 ```java
@@ -109,11 +115,13 @@ Getter dan Setter menjaga enkapsulasi, sehingga atribut private tidak bisa diaks
 ---
 
 
-## **4. Abstract Method**
+### **4. Abstract Method**
 Penjelasan:
 
 -> Abstract method adalah method yang dideklarasikan tanpa isi (hanya nama method tanpa implementasi).
+
 -> Hanya bisa dibuat dalam abstract class.
+
 -> Kelas yang mewarisi abstract class harus mengimplementasikan abstract method tersebut.
 
 ```java 
