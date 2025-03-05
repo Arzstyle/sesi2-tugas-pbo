@@ -46,7 +46,11 @@ public class Main {
 ```
 
 **Penjelasan Kode**
+
 Class "Mobil" dibuat dengan atribut merk dan warna, serta method tampilkanInfo().
-Object "mobil1" dibuat dalam method main() menggunakan new Mobil();.
+
+Object "mobil1" dibuat dalam method main() menggunakan new Mobil();
+
 Nilai atribut merk dan warna diatur secara langsung.
+
 Method tampilkanInfo() dipanggil untuk menampilkan informasi dari object yang telah dibuat.
