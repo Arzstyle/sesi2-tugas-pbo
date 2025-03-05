@@ -1,8 +1,8 @@
-# **SOAL**
+### **SOAL**
 
-## 1. Jelaskan apa yang dimaksud dengan class dan object!
+#### 1. Jelaskan apa yang dimaksud dengan class dan object!
 
-# **JAWABAN :**
+### **JAWABAN :**
 
 **1. Class**
 Class adalah sebuah template atau blueprint yang mendefinisikan atribut (variabel) dan perilaku (method) yang dimiliki oleh objek. Class sendiri belum bisa digunakan secara langsung sampai dibuat instansinya dalam bentuk object.
